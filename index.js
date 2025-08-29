@@ -1,5 +1,9 @@
+
+
 const express = require('express');
+const cors = require('cors');
 const app = express();
+app.use(cors());
 app.use(express.json());
 
 // Read config from environment variables (safer than hardcoding)
