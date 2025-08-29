@@ -3,10 +3,10 @@ const app = express();
 app.use(express.json());
 
 // Read config from environment variables (safer than hardcoding)
-const FULL_NAME = (process.env.FULL_NAME || "john_doe").toLowerCase();
-const DOB_DDMMYYYY = process.env.DOB_DDMMYYYY || "17091999";
-const EMAIL = process.env.EMAIL || "john@xyz.com";
-const ROLL_NUMBER = process.env.ROLL_NUMBER || "ABCD123";
+const FULL_NAME = (process.env.FULL_NAME || "harshit_ambwani").toLowerCase();
+const DOB_DDMMYYYY = process.env.DOB_DDMMYYYY || "22062004";
+const EMAIL = process.env.EMAIL || "harshitambwani86@gmail.com";
+const ROLL_NUMBER = process.env.ROLL_NUMBER || "22BCE10076";
 
 const PORT = process.env.PORT || 3000;
 
